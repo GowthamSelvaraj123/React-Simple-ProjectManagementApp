@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.hideMenuNav {
+    display: none;
+  }
+.showMenuNav {display: block;}
+.HAMBURGER-ICON{cursor: pointer;}
+.HAMBURGER-ICON span {background-color: white !important;}
+.HAMBURGER-ICON.space-y-2 {position: absolute;top: 0px;background-color: rgb(68 64 60 / var(--tw-bg-opacity));padding: 10px;left: 0px;
+}
+input, textarea {min-width: 320px;}
